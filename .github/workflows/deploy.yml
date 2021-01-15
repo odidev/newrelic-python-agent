@@ -16,7 +16,7 @@ name: Deploy
 
 push:
   branches:
-    - main
+    - localpr
   tags-ignore:
     - '**'
 pull_request:
