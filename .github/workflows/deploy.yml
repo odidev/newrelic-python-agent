@@ -14,14 +14,15 @@
 
 name: Deploy
 
-push:
-  branches:
-    - localpr
-  tags-ignore:
-    - '**'
-pull_request:
-  branches:
-    - main
+on:
+  push:
+    branches:
+      - localpr
+    tags-ignore:
+      - '**'
+  pull_request:
+    branches:
+      - main
 
 #on:
 #  release:
